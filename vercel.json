@@ -1,0 +1,13 @@
+{
+  "name": "fireweb-arachnet",
+  "version": "1.0.0",
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
